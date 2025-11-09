@@ -33,10 +33,10 @@ function showToast(message, type = "success") {
 async function loadData() {
   try {
     const [productsRes, categoriesRes, companyRes, mediaRes] = await Promise.all([
-      fetch("./assets/data/product.json"),
-      fetch("./assets/data/category.json"),
-      fetch("./assets/data/company-info.json"),
-      fetch("./assets/data/media.json"),
+      fetch("assets/data/product.json"),
+      fetch("assets/data/category.json"),
+      fetch("assets/data/company-info.json"),
+      fetch("assets/data/media.json"),
     ]);
 
     products = await productsRes.json();
