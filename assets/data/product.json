@@ -7,7 +7,7 @@
     "sale-price": 500,
     "unit": "₫",
     "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "../../assets/images/image.png",
+    "image": "./assets/images/image.png",
     "category": {
       "name": "Website",
       "sub": "Portfolio/Workfolio"

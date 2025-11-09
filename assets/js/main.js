@@ -33,10 +33,10 @@ function showToast(message, type = "success") {
 async function loadData() {
   try {
     const [productsRes, categoriesRes, companyRes, mediaRes] = await Promise.all([
-      fetch("../../assets/data/product.json"),
-      fetch("../../assets/data/category.json"),
-      fetch("../../assets/data/company-info.json"),
-      fetch("../../assets/data/media.json"),
+      fetch("./assets/data/product.json"),
+      fetch("./assets/data/category.json"),
+      fetch("./assets/data/company-info.json"),
+      fetch("./assets/data/media.json"),
     ]);
 
     products = await productsRes.json();
@@ -48,116 +48,7 @@ async function loadData() {
   } catch (error) {
     console.error("Error loading data:", error);
     showToast("Không thể tải dữ liệu. Sử dụng dữ liệu mẫu.", "error");
-    loadSampleData();
   }
-}
-
-// Load Sample Data (Fallback)
-function loadSampleData() {
-  products = [
-    {
-      id: "SP1",
-      name: "San pham 1",
-      description: "San pham 1",
-      price: 1000,
-      "sale-price": 500,
-      unit: "₫",
-      link: "https://orbisict.id.vn/html/SP1.html",
-      image: "https://orbisict.id.vn/banners/1.jpg",
-      category: { name: "Website", sub: "Portfolio/Workfolio" },
-      company: "Orbis ICT",
-    },
-    {
-      id: "SP2",
-      name: "San pham 2",
-      description: "San pham 2",
-      price: 1000,
-      "sale-price": 500,
-      unit: "₫",
-      link: "https://orbisict.id.vn/html/SP1.html",
-      image: "https://orbisict.id.vn/banners/1.jpg",
-      category: { name: "Website", sub: "Portfolio/Workfolio" },
-      company: "Orbis ICT",
-    },
-    {
-      id: "SP3",
-      name: "San pham 3",
-      description: "San pham 3",
-      price: 1000,
-      "sale-price": 500,
-      unit: "₫",
-      link: "https://orbisict.id.vn/html/SP1.html",
-      image: "https://orbisict.id.vn/banners/1.jpg",
-      category: { name: "Website", sub: "QC" },
-      company: "Orbis ICT",
-    },
-    {
-      id: "SP4",
-      name: "San pham 4",
-      description: "San pham 4",
-      price: 1500,
-      "sale-price": 800,
-      unit: "₫",
-      link: "https://orbisict.id.vn/html/SP1.html",
-      image: "https://orbisict.id.vn/banners/2.jpg",
-      category: { name: "Website", sub: "QC" },
-      company: "Orbis ICT",
-    },
-    {
-      id: "SP5",
-      name: "San pham 5",
-      description: "San pham 5",
-      price: 2000,
-      "sale-price": 1200,
-      unit: "₫",
-      link: "https://orbisict.id.vn/html/SP1.html",
-      image: "https://orbisict.id.vn/banners/3.jpg",
-      category: { name: "Bổ sung", sub: "Word" },
-      company: "Orbis ICT",
-    },
-    {
-      id: "SP6",
-      name: "San pham 6",
-      description: "San pham 6",
-      price: 2500,
-      "sale-price": 1500,
-      unit: "₫",
-      link: "https://orbisict.id.vn/html/SP1.html",
-      image: "https://orbisict.id.vn/banners/1.jpg",
-      category: { name: "Bổ sung", sub: "Excel" },
-      company: "Orbis ICT",
-    },
-  ];
-  categories = [
-    {
-      name: "Website",
-      sub: [{ name: "Portfolio/Workfolio" }, { name: "QC" }, { name: "Trưng bày sản phẩm" }, { name: "Startup" }],
-    },
-    { name: "Bổ sung", sub: [{ name: "Word" }, { name: "Excel" }, { name: "PowerPoint" }] },
-  ];
-  companyInfo = {
-    name: "Orbis ICT",
-    slogan: "Bạn cần gì chúng tôi có đó !",
-    address: "Ho Chi Minh City",
-    email: "orbisict@gmail.com",
-    website: "https://orbisict.id.vn",
-    "social-media": {
-      "facebook-group": "https://www.facebook.com/orbisict",
-      fanpage: "https://twitter.com/orbisict",
-      instagram: "https://www.instagram.com/orbisict",
-      telegram: "https://t.me/orbisict",
-      tiktok: "https://www.tiktok.com/orbisict",
-      threads: "https://www.threads.net/orbisict",
-      zalo: "https://zalo.me/orbisict",
-    },
-    "logo-url": "https://orbisict.id.vn/logo.png",
-  };
-  mediaData = [
-    { image: "https://orbisict.id.vn/banners/1.jpg", link: "https://orbisict.id.vn" },
-    { image: "https://orbisict.id.vn/banners/2.jpg", link: "https://orbisict.id.vn" },
-    { image: "https://orbisict.id.vn/banners/3.jpg", link: "https://orbisict.id.vn" },
-  ];
-  initializeApp();
 }
 
 // Initialize Application
