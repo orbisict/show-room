@@ -1,0 +1,152 @@
+[
+  {
+    "id": "SP1",
+    "name": "San pham 1",
+    "description": "San pham 1",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "../../assets/images/image.png",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  },
+  {
+    "id": "SP2",
+    "name": "San pham 2",
+    "description": "San pham 1",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  },
+  {
+    "id": "SP3",
+    "name": "San pham 3",
+    "description": "San pham 3",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  },
+  {
+    "id": "SP4",
+    "name": "San pham 4",
+    "description": "San pham 4",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  },
+  {
+    "id": "SP5",
+    "name": "San pham 5",
+    "description": "San pham 5",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  },
+  {
+    "id": "SP6",
+    "name": "San pham 6",
+    "description": "San pham 6",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  },
+  {
+    "id": "SP7",
+    "name": "San pham 7",
+    "description": "San pham 7",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  },
+  {
+    "id": "SP8",
+    "name": "San pham 8",
+    "description": "San pham 8",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  },
+  {
+    "id": "SP9",
+    "name": "San pham 9",
+    "description": "San pham 9",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  },
+  {
+    "id": "SP10",
+    "name": "San pham 10",
+    "description": "San pham 10",
+    "price": 1000,
+    "sale-price": 500,
+    "unit": "₫",
+    "link": "https://orbisict.id.vn/html/SP1.html",
+    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "category": {
+      "name": "Website",
+      "sub": "Portfolio/Workfolio"
+    },
+    "company": "Orbis ICT"
+  }
+]

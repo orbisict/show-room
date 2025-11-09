@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Website",
+    "sub": [
+      {
+        "name": "Portfolio/Workfolio"
+      },
+      {
+        "name": "QC"
+      },
+      {
+        "name": "Trưng bày sản phẩm"
+      },
+      {
+        "name": "Startup"
+      }
+    ]
+  },
+  {
+    "name": "Bổ sung",
+    "sub": [
+      {
+        "name": "Word"
+      },
+      {
+        "name": "Excel"
+      },
+      {
+        "name": "PowerPoint"
+      }
+    ]
+  }
+]
