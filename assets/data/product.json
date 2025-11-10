@@ -1,13 +1,13 @@
 [
   {
     "id": "SP1",
-    "name": "San pham 1",
-    "description": "San pham 1",
+    "name": "Template 01",
+    "description": "This is a portfolio template with a modern and exclusive design.",
     "price": 1000,
     "sale-price": 500,
     "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "./assets/images/image.png",
+    "link": "./assets/template/web/portfolio/sp1/index.html",
+    "image": "./assets/images/web/portfolio/sp1.png",
     "category": {
       "name": "Website",
       "sub": "Portfolio/Workfolio"
@@ -16,13 +16,13 @@
   },
   {
     "id": "SP2",
-    "name": "San pham 2",
-    "description": "San pham 1",
+    "name": "Template 02",
+    "description": "This is a template for creating an amazing portfolio website.",
     "price": 1000,
     "sale-price": 500,
     "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "link": "./assets/template/web/portfolio/sp2/index.html",
+    "image": "./assets/images/web/portfolio/sp2.png",
     "category": {
       "name": "Website",
       "sub": "Portfolio/Workfolio"
@@ -31,13 +31,13 @@
   },
   {
     "id": "SP3",
-    "name": "San pham 3",
-    "description": "San pham 3",
+    "name": "Template 03",
+    "description": "This is a responsive portfolio template for creative professionals.",
     "price": 1000,
     "sale-price": 500,
     "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "link": "./assets/template/web/portfolio/sp3/index.html",
+    "image": "./assets/images/web/portfolio/sp3.png",
     "category": {
       "name": "Website",
       "sub": "Portfolio/Workfolio"
@@ -46,103 +46,13 @@
   },
   {
     "id": "SP4",
-    "name": "San pham 4",
-    "description": "San pham 4",
+    "name": "Template 04",
+    "description": "This is a website template with a meticulously designed layout.",
     "price": 1000,
     "sale-price": 500,
     "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "https://orbisict.id.vn/banners/1.jpg",
-    "category": {
-      "name": "Website",
-      "sub": "Portfolio/Workfolio"
-    },
-    "company": "Orbis ICT"
-  },
-  {
-    "id": "SP5",
-    "name": "San pham 5",
-    "description": "San pham 5",
-    "price": 1000,
-    "sale-price": 500,
-    "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "https://orbisict.id.vn/banners/1.jpg",
-    "category": {
-      "name": "Website",
-      "sub": "Portfolio/Workfolio"
-    },
-    "company": "Orbis ICT"
-  },
-  {
-    "id": "SP6",
-    "name": "San pham 6",
-    "description": "San pham 6",
-    "price": 1000,
-    "sale-price": 500,
-    "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "https://orbisict.id.vn/banners/1.jpg",
-    "category": {
-      "name": "Website",
-      "sub": "Portfolio/Workfolio"
-    },
-    "company": "Orbis ICT"
-  },
-  {
-    "id": "SP7",
-    "name": "San pham 7",
-    "description": "San pham 7",
-    "price": 1000,
-    "sale-price": 500,
-    "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "https://orbisict.id.vn/banners/1.jpg",
-    "category": {
-      "name": "Website",
-      "sub": "Portfolio/Workfolio"
-    },
-    "company": "Orbis ICT"
-  },
-  {
-    "id": "SP8",
-    "name": "San pham 8",
-    "description": "San pham 8",
-    "price": 1000,
-    "sale-price": 500,
-    "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "https://orbisict.id.vn/banners/1.jpg",
-    "category": {
-      "name": "Website",
-      "sub": "Portfolio/Workfolio"
-    },
-    "company": "Orbis ICT"
-  },
-  {
-    "id": "SP9",
-    "name": "San pham 9",
-    "description": "San pham 9",
-    "price": 1000,
-    "sale-price": 500,
-    "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "https://orbisict.id.vn/banners/1.jpg",
-    "category": {
-      "name": "Website",
-      "sub": "Portfolio/Workfolio"
-    },
-    "company": "Orbis ICT"
-  },
-  {
-    "id": "SP10",
-    "name": "San pham 10",
-    "description": "San pham 10",
-    "price": 1000,
-    "sale-price": 500,
-    "unit": "₫",
-    "link": "https://orbisict.id.vn/html/SP1.html",
-    "image": "https://orbisict.id.vn/banners/1.jpg",
+    "link": "./assets/template/web/portfolio/sp4/index.html",
+    "image": "./assets/images/web/portfolio/sp4.png",
     "category": {
       "name": "Website",
       "sub": "Portfolio/Workfolio"
